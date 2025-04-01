@@ -1,0 +1,415 @@
+{
+  "students_schemes": [
+    {
+      "name": "National Scholarship Program",
+      "type": "Government",
+      "criteria": "Meritorious students with family income below ₹2 Lakh",
+      "description": "Provides financial aid for higher education to deserving students.",
+      "launch_date": "2015-08-01",
+      "link": "https://scholarships.gov.in"
+    },
+    {
+      "name": "Education Loan Subsidy Scheme",
+      "type": "Government",
+      "criteria": "Students availing educational loans for professional courses",
+      "description": "Interest subsidy on education loans for economically weaker sections.",
+      "launch_date": "2017-07-15",
+      "link": "https://mhrd.gov.in/education-loan"
+    },
+    {
+      "name": "Tech Talent Scholarship",
+      "type": "Private",
+      "criteria": "Engineering students with excellent academic records",
+      "description": "Offered by private firms to promote tech talent.",
+      "launch_date": "2020-09-10",
+      "link": "https://example.com/tech-scholarship"
+    },
+    {
+      "name": "Post Matric Scholarship",
+      "type": "Government",
+      "criteria": "Students in higher secondary education from low-income backgrounds",
+      "description": "Scholarship for students in high school or undergraduate studies.",
+      "launch_date": "2016-06-12",
+      "link": "https://scholarships.gov.in/post-matric"
+    },
+    {
+      "name": "Young Scientist Fellowship Scheme",
+      "type": "Government",
+      "criteria": "Students pursuing research in science and technology",
+      "description": "Fellowship for students in science, engineering, and innovation fields.",
+      "launch_date": "2019-05-20",
+      "link": "https://example.com/young-scientist"
+    },
+    {
+      "name": "AICTE Pragati Scholarship for Girls",
+      "type": "Government",
+      "criteria": "Female students pursuing technical education",
+      "description": "Financial aid for women enrolled in technical courses.",
+      "launch_date": "2018-09-01",
+      "link": "https://aicte-india.org/pragati-scholarship"
+    },
+    {
+      "name": "Merit-cum-Means Scholarship",
+      "type": "Government",
+      "criteria": "Students from minority communities pursuing professional courses",
+      "description": "Scholarship covering tuition fees and maintenance allowance.",
+      "launch_date": "2016-08-25",
+      "link": "https://minorityaffairs.gov.in/merit-cum-means"
+    },
+    {
+      "name": "Global Education Scholarship",
+      "type": "Private",
+      "criteria": "Students seeking education abroad",
+      "description": "Funding support for students planning to study internationally.",
+      "launch_date": "2021-07-15",
+      "link": "https://example.com/global-education"
+    },
+    {
+      "name": "Skill Development Initiative",
+      "type": "Government",
+      "criteria": "Students undergoing vocational or skill-based training",
+      "description": "Provides skill training to enhance employability.",
+      "launch_date": "2018-04-10",
+      "link": "https://example.com/skill-development"
+    },
+    {
+      "name": "Startup India Seed Fund",
+      "type": "Government",
+      "criteria": "Students interested in entrepreneurship",
+      "description": "Seed funding for young entrepreneurs to start their ventures.",
+      "launch_date": "2021-01-16",
+      "link": "https://startupindia.gov.in/seed-fund"
+    }
+  ],
+
+  "farmers_schemes": [
+    {
+      "name": "PM Kisan Samman Nidhi",
+      "type": "Government",
+      "criteria": "All small and marginal farmers",
+      "description": "₹6,000 annual financial aid to farmers.",
+      "launch_date": "2019-02-24",
+      "link": "https://pmkisan.gov.in"
+    },
+    {
+      "name": "Kisan Credit Card (KCC) Scheme",
+      "type": "Government",
+      "criteria": "Farmers requiring credit for agricultural activities",
+      "description": "Short-term credit facility for farmers at low interest rates.",
+      "launch_date": "1998-08-10",
+      "link": "https://www.nabard.org/kisan-credit-card"
+    },
+    {
+      "name": "Pradhan Mantri Fasal Bima Yojana",
+      "type": "Government",
+      "criteria": "Farmers facing crop damage due to natural calamities",
+      "description": "Crop insurance scheme covering damages due to natural disasters.",
+      "launch_date": "2016-01-13",
+      "link": "https://pmfby.gov.in"
+    },
+    {
+      "name": "Soil Health Card Scheme",
+      "type": "Government",
+      "criteria": "Farmers interested in improving soil fertility",
+      "description": "Provides a soil health report to help improve crop productivity.",
+      "launch_date": "2015-02-19",
+      "link": "https://soilhealth.dac.gov.in"
+    },
+    {
+      "name": "Rashtriya Krishi Vikas Yojana",
+      "type": "Government",
+      "criteria": "Farmers seeking financial support for new agricultural projects",
+      "description": "Grants for agricultural development projects to improve productivity.",
+      "launch_date": "2007-08-01",
+      "link": "https://rkvy.nic.in"
+    },
+    {
+      "name": "National Mission for Sustainable Agriculture",
+      "type": "Government",
+      "criteria": "Farmers adopting sustainable farming methods",
+      "description": "Encourages water-efficient and climate-resilient agricultural techniques.",
+      "launch_date": "2014-04-01",
+      "link": "https://nmsa.gov.in"
+    },
+    {
+      "name": "Agri-Business Incubation Program",
+      "type": "Private",
+      "criteria": "Farmers looking to start agri-business",
+      "description": "Financial aid and training for agripreneurs.",
+      "launch_date": "2021-11-03",
+      "link": "https://example.com/agri-incubation"
+    },
+    {
+      "name": "Organic Farming Support Scheme",
+      "type": "Government",
+      "criteria": "Farmers adopting organic farming practices",
+      "description": "Subsidies for organic farming equipment and fertilizers.",
+      "launch_date": "2018-05-20",
+      "link": "https://agricoop.nic.in/organic-farming"
+    },
+    {
+      "name": "Dairy Entrepreneurship Development Scheme",
+      "type": "Government",
+      "criteria": "Farmers involved in dairy farming",
+      "description": "Financial support for setting up dairy farms and processing units.",
+      "launch_date": "2010-07-15",
+      "link": "https://dahd.nic.in/dairy-entrepreneurship"
+    },
+    {
+      "name": "Paramparagat Krishi Vikas Yojana",
+      "type": "Government",
+      "criteria": "Farmers interested in organic and natural farming",
+      "description": "Promotes organic farming and provides training and subsidies.",
+      "launch_date": "2015-03-15",
+      "link": "https://example.com/paramparagat-krishi"
+    }
+  ],
+
+  "womens_schemes": [
+    {
+      "name": "Beti Bachao Beti Padhao",
+      "type": "Government",
+      "criteria": "Girl children under the age of 10",
+      "description": "Promotes education and welfare of girl children.",
+      "launch_date": "2015-01-22",
+      "link": "https://wcd.nic.in/bbbp-scheme"
+    },
+    {
+      "name": "Mahila Samridhi Yojana",
+      "type": "Government",
+      "criteria": "Women entrepreneurs from backward classes",
+      "description": "Provides microfinance for self-employment opportunities.",
+      "launch_date": "1993-10-02",
+      "link": "https://nsfdc.nic.in/msy"
+    },
+    {
+      "name": "Pradhan Mantri Matru Vandana Yojana",
+      "type": "Government",
+      "criteria": "Pregnant and lactating women",
+      "description": "Financial aid for maternity expenses and nutrition.",
+      "launch_date": "2017-01-01",
+      "link": "https://wcd.nic.in/pm-mvy"
+    },
+    {
+      "name": "Working Women Hostel Scheme",
+      "type": "Government",
+      "criteria": "Employed women needing safe and affordable accommodation",
+      "description": "Provides subsidized housing for working women.",
+      "launch_date": "2005-06-15",
+      "link": "https://wcd.nic.in/working-women-hostel"
+    },
+    {
+      "name": "Udyogini Scheme",
+      "type": "Government",
+      "criteria": "Women entrepreneurs from low-income backgrounds",
+      "description": "Provides loans to women for starting small businesses.",
+      "launch_date": "2018-07-25",
+      "link": "https://nsfdc.nic.in/udyogini"
+    },
+    {
+      "name": "MUDRA Yojana for Women",
+      "type": "Government",
+      "criteria": "Women wanting to start small businesses",
+      "description": "Provides collateral-free business loans to women entrepreneurs.",
+      "launch_date": "2015-04-08",
+      "link": "https://mudra.org.in"
+    },
+    {
+      "name": "Women Startup Program",
+      "type": "Private",
+      "criteria": "Women entrepreneurs",
+      "description": "Incubation program to support female-led startups.",
+      "launch_date": "2020-03-10",
+      "link": "https://example.com/women-startup"
+    },
+    {
+      "name": "Self Employment Loan for Women",
+      "type": "Private",
+      "criteria": "Women looking for financial assistance for self-employment",
+      "description": "Provides easy-access loans for self-employed women.",
+      "launch_date": "2019-06-01",
+      "link": "https://example.com/self-employment-women"
+    },
+    {
+      "name": "Digital Literacy Program for Women",
+      "type": "Government",
+      "criteria": "Women from rural areas",
+      "description": "Free training in digital literacy and online safety.",
+      "launch_date": "2017-11-30",
+      "link": "https://example.com/digital-literacy-women"
+    },
+    {
+      "name": "Mahila Kisan Sashaktikaran Pariyojana",
+      "type": "Government",
+      "criteria": "Women working in agriculture",
+      "description": "Empowers women farmers through training and financial aid.",
+      "launch_date": "2011-04-12",
+      "link": "https://nsfdc.nic.in/mksp"
+    }
+  ],
+  "girls_schemes": [
+    {
+      "name": "Sukanya Samriddhi Yojana",
+      "type": "Government",
+      "criteria": "Parents of girl children below 10 years",
+      "description": "Savings scheme with high interest for the future of girl children.",
+      "launch_date": "2015-01-22",
+      "link": "https://www.india.gov.in/sukanya-samriddhi-yojana"
+    },
+    {
+      "name": "CBSE Udaan Scheme",
+      "type": "Government",
+      "criteria": "Girls studying in class 11 and 12 in CBSE schools",
+      "description": "Provides free coaching and study materials for engineering entrance exams.",
+      "launch_date": "2014-07-01",
+      "link": "https://www.cbse.gov.in/udaan.html"
+    },
+    {
+      "name": "National Scheme of Incentive to Girls for Secondary Education",
+      "type": "Government",
+      "criteria": "SC/ST girls who have passed class 8",
+      "description": "Provides financial assistance for girls continuing secondary education.",
+      "launch_date": "2008-03-01",
+      "link": "https://www.education.gov.in/nsi-girls"
+    },
+    {
+      "name": "Dhanalakshmi Scheme",
+      "type": "Government",
+      "criteria": "Families with girl children under 18",
+      "description": "Cash incentives for birth, education, and vaccination of girl children.",
+      "launch_date": "2008-03-08",
+      "link": "https://wcd.nic.in/dhanalakshmi"
+    },
+    {
+      "name": "Kanya Shiksha Pravesh Utsav",
+      "type": "Government",
+      "criteria": "Girls who dropped out of school",
+      "description": "Encourages and supports the return of girls to school.",
+      "launch_date": "2022-03-07",
+      "link": "https://wcd.nic.in/kanya-shiksha"
+    },
+    {
+      "name": "Balika Samridhi Yojana",
+      "type": "Government",
+      "criteria": "Girl children born in economically weaker families",
+      "description": "Provides financial support for the education of girls from low-income families.",
+      "launch_date": "1997-08-15",
+      "link": "https://www.nari.nic.in/balika-samridhi-yojana"
+    },
+    {
+      "name": "Kishori Shakti Yojana",
+      "type": "Government",
+      "criteria": "Adolescent girls aged 11-18",
+      "description": "Improves nutrition, health, and overall development of adolescent girls.",
+      "launch_date": "2000-04-01",
+      "link": "https://wcd.nic.in/kishori-shakti-yojana"
+    },
+    {
+      "name": "Ladli Laxmi Yojana",
+      "type": "Government",
+      "criteria": "Girl children born in Madhya Pradesh",
+      "description": "Provides financial support for education and marriage of girl children.",
+      "launch_date": "2007-04-01",
+      "link": "https://ladlilaxmi.mp.gov.in"
+    },
+    {
+      "name": "NANHI KALI",
+      "type": "Private",
+      "criteria": "Girls from underprivileged backgrounds",
+      "description": "Supports education for underprivileged girl children.",
+      "launch_date": "1996-01-01",
+      "link": "https://www.nanhikali.org"
+    },
+    {
+      "name": "STEM Scholarship for Girls",
+      "type": "Private",
+      "criteria": "Girls pursuing science, technology, engineering, and mathematics (STEM) education",
+      "description": "Provides financial aid for female students in STEM fields.",
+      "launch_date": "2020-06-01",
+      "link": "https://example.com/stem-scholarship-girls"
+    }
+  ],
+
+  "boys_schemes": [
+    {
+      "name": "National Means-Cum-Merit Scholarship",
+      "type": "Government",
+      "criteria": "Students from Class 9 to 12 with a family income below ₹1.5 lakh per annum",
+      "description": "Provides scholarships to meritorious students from economically weaker sections.",
+      "launch_date": "2008-07-01",
+      "link": "https://www.education.gov.in/nmms"
+    },
+    {
+      "name": "Pragati Scholarship for Boys",
+      "type": "Government",
+      "criteria": "Male students pursuing technical education in AICTE-approved institutions",
+      "description": "Scholarship for boys to support technical and engineering education.",
+      "launch_date": "2015-09-01",
+      "link": "https://www.aicte-india.org/pragati-scholarship"
+    },
+    {
+      "name": "Inspire Scholarship",
+      "type": "Government",
+      "criteria": "Students who scored top 1% in 12th board exams and pursuing science courses",
+      "description": "Scholarship to promote scientific research and innovation.",
+      "launch_date": "2011-11-30",
+      "link": "https://online-inspire.gov.in"
+    },
+    {
+      "name": "PM CARES for Children Scheme",
+      "type": "Government",
+      "criteria": "Children who lost both parents due to COVID-19",
+      "description": "Provides financial and educational support to children orphaned during the pandemic.",
+      "launch_date": "2021-05-29",
+      "link": "https://pmcaresforchildren.in"
+    },
+    {
+      "name": "Eklavya Model Residential School",
+      "type": "Government",
+      "criteria": "Scheduled Tribe (ST) students",
+      "description": "Provides free residential education for ST students.",
+      "launch_date": "1997-03-01",
+      "link": "https://tribal.nic.in/eklavyamodelschool"
+    },
+    {
+      "name": "Vidyalakshmi Education Loan Scheme",
+      "type": "Government",
+      "criteria": "Students pursuing higher education in India and abroad",
+      "description": "Provides financial assistance for students through education loans.",
+      "launch_date": "2015-08-15",
+      "link": "https://www.vidyalakshmi.co.in"
+    },
+    {
+      "name": "Bal Shakti Puraskar",
+      "type": "Government",
+      "criteria": "Students under 18 who have excelled in education, innovation, or social service",
+      "description": "Awards children for exceptional achievements in various fields.",
+      "launch_date": "1996-01-26",
+      "link": "https://wcd.nic.in/bal-shakti-puraskar"
+    },
+    {
+      "name": "KVPY (Kishore Vaigyanik Protsahan Yojana)",
+      "type": "Government",
+      "criteria": "Students interested in research in science",
+      "description": "Provides fellowships to students interested in research careers.",
+      "launch_date": "1999-07-01",
+      "link": "http://kvpy.iisc.ernet.in"
+    },
+    {
+      "name": "AIIMS Free Medical Coaching",
+      "type": "Private",
+      "criteria": "Students preparing for NEET from economically weaker sections",
+      "description": "Provides free coaching for medical entrance exams.",
+      "launch_date": "2018-06-01",
+      "link": "https://example.com/aiims-coaching"
+    },
+    {
+      "name": "Sports Authority of India (SAI) Scholarship",
+      "type": "Government",
+      "criteria": "Students excelling in sports at national and state levels",
+      "description": "Provides scholarships and training to talented sports students.",
+      "launch_date": "1982-04-01",
+      "link": "https://sportsauthorityofindia.nic.in"
+    }
+  ]
+}

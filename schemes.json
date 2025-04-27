@@ -155,88 +155,6 @@
       "link": "https://www.newindianexpress.com/business/union-budget/2025/Feb/01/fm-sitharaman-announces-enhancing-limit-for-interest-subvention-scheme-for-kisan-credit-cards-to-rs-5-lakh?utm_source=chatgpt.com"
     }
   ],
-  "womens_schemes": [
-    {
-      "name": "Beti Bachao Beti Padhao",
-      "type": "Government",
-      "criteria": "Girl children under the age of 10",
-      "description": "Promotes education and welfare of girl children.",
-      "launch_date": "2015-01-22",
-      "link": "https://wcd.nic.in/bbbp-scheme"
-    },
-    {
-      "name": "Mahila Samridhi Yojana",
-      "type": "Government",
-      "criteria": "Women entrepreneurs from backward classes",
-      "description": "Provides microfinance for self-employment opportunities.",
-      "launch_date": "1993-10-02",
-      "link": "https://nsfdc.nic.in/msy"
-    },
-    {
-      "name": "Pradhan Mantri Matru Vandana Yojana",
-      "type": "Government",
-      "criteria": "Pregnant and lactating women",
-      "description": "Financial aid for maternity expenses and nutrition.",
-      "launch_date": "2017-01-01",
-      "link": "https://wcd.nic.in/pm-mvy"
-    },
-    {
-      "name": "Working Women Hostel Scheme",
-      "type": "Government",
-      "criteria": "Employed women needing safe and affordable accommodation",
-      "description": "Provides subsidized housing for working women.",
-      "launch_date": "2005-06-15",
-      "link": "https://wcd.nic.in/working-women-hostel"
-    },
-    {
-      "name": "Udyogini Scheme",
-      "type": "Government",
-      "criteria": "Women entrepreneurs from low-income backgrounds",
-      "description": "Provides loans to women for starting small businesses.",
-      "launch_date": "2018-07-25",
-      "link": "https://nsfdc.nic.in/udyogini"
-    },
-    {
-      "name": "MUDRA Yojana for Women",
-      "type": "Government",
-      "criteria": "Women wanting to start small businesses",
-      "description": "Provides collateral-free business loans to women entrepreneurs.",
-      "launch_date": "2015-04-08",
-      "link": "https://mudra.org.in"
-    },
-    {
-      "name": "Women Startup Program",
-      "type": "Private",
-      "criteria": "Women entrepreneurs",
-      "description": "Incubation program to support female-led startups.",
-      "launch_date": "2020-03-10",
-      "link": "https://example.com/women-startup"
-    },
-    {
-      "name": "Self Employment Loan for Women",
-      "type": "Private",
-      "criteria": "Women looking for financial assistance for self-employment",
-      "description": "Provides easy-access loans for self-employed women.",
-      "launch_date": "2019-06-01",
-      "link": "https://example.com/self-employment-women"
-    },
-    {
-      "name": "Digital Literacy Program for Women",
-      "type": "Government",
-      "criteria": "Women from rural areas",
-      "description": "Free training in digital literacy and online safety.",
-      "launch_date": "2017-11-30",
-      "link": "https://example.com/digital-literacy-women"
-    },
-    {
-      "name": "Mahila Kisan Sashaktikaran Pariyojana",
-      "type": "Government",
-      "criteria": "Women working in agriculture",
-      "description": "Empowers women farmers through training and financial aid.",
-      "launch_date": "2011-04-12",
-      "link": "https://nsfdc.nic.in/mksp"
-    }
-  ],
   "girls_schemes": [
     {
       "name": "PRAGATI Scholarship for Girl Students",
@@ -303,7 +221,6 @@
       "link": "https://theglobalscholarship.org/scholarships"
     }
   ],
-
   "boys_schemes": [
     {
       "name": "Tamizh Pudhalvan Scheme",
@@ -354,7 +271,6 @@
       "link": "https://www.vidyadhan.org/"
     }
   ],
-
   "sports_schemes": [
     {
       "name": "Khelo India Scholarship Scheme",
@@ -427,6 +343,48 @@
       "description": "£12,500 scholarship for training, equipment, and competition participation expenses.",
       "launch_date": "2024-02-01",
       "link": "https://sportstar.thehindu.com/other-sports/loughborough-university-sports-scholarship-indian-athletes-olympics-2024/article68520524.ece?utm_source=chatgpt.com"
+    }
+  ],
+  "unemployeement_schemes": [
+    {
+      "name": "Tamil Nadu Unemployment Assistance Scheme 2025",
+      "type": "Government",
+      "criteria": "Unemployed residents of Tamil Nadu registered for 5 years with District Employment Centres, below 40 years of age, family income < ₹72,000/year",
+      "description": "Monthly financial assistance based on education: SSLC Failed ₹200, SSLC Passed ₹300, HSC Passed ₹400, Graduates ₹600.",
+      "launch_date": "2025-04-01",
+      "link": "https://tnvelaivaaippu.gov.in"
+    },
+    {
+      "name": "District-Level Unemployment Scholarships",
+      "type": "Government",
+      "criteria": "Unemployed youth registered with district employment offices in Tamil Nadu",
+      "description": "Scholarships offered by districts like Salem, Kancheepuram, and Tiruppur to support unemployed youth.",
+      "launch_date": "2025-01-08",
+      "link": "https://mayiladuthurai.nic.in/document/scholarship-scheme-for-unemployed-youth/"
+    },
+    {
+      "name": "Berojgari Bhatta Yojna",
+      "type": "Government",
+      "criteria": "Educated unemployed youth across India",
+      "description": "Financial assistance between ₹1,000 to ₹1,500 per month; also offers job listings.",
+      "launch_date": "2012-01-01",
+      "link": "https://www.myscheme.gov.in/schemes/bby"
+    },
+    {
+      "name": "JK Tyre Shiksha Sarthi Scholarship Program",
+      "type": "Private",
+      "criteria": "Female students pursuing technical, non-technical undergraduate or diploma courses",
+      "description": "Scholarships up to ₹25,000 for technical courses and ₹15,000 for non-technical or diploma courses.",
+      "launch_date": "2022-04-01",
+      "link": "https://www.buddy4study.com/scholarship/jk-tyre-shiksha-sarthi-scholarship-program"
+    },
+    {
+      "name": "Hakeem Abdul Hameed Scholarship",
+      "type": "Private",
+      "criteria": "Students from minority, SC, ST, OBC, and general categories with ≥50% in 12th and family income ≤ ₹3 lakh/year",
+      "description": "Financial aid for pursuing technical, professional, graduate, diploma, or vocational courses.",
+      "launch_date": "2010-01-01",
+      "link": "https://www.collegedekho.com/private-scholarships-csp-2"
     }
   ]
 }

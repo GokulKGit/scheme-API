@@ -1,0 +1,98 @@
+const express = require("express");
+const connection = require("../config/database");
+const router = express.Router();
+
+// http://localhost:5000/adduser
+
+/*
+  {
+    "name":"Goukl",
+    "age":"12",
+    "email" : "gokul@gmail.com",
+    "mobile":"1234567890",
+    "category":"Student",
+    "gender":"Male",
+    "aadhar":"12",
+    "pan":"12",
+    "password":"2",
+    "dob":"12"
+  }
+*/
+
+router.post("/adduser", (req, res) => {
+  const {
+    name,
+    age,
+    email,
+    mobile,
+    category,
+    gender,
+    aadhar,
+    pan,
+    password,
+    dob,
+  } = req.body;
+
+  const query = `
+    INSERT INTO user (name, age, email, mobile, category, gender, aadhar, pan, password, dob) 
+    VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?);
+  `;
+
+  connection.query(
+    query,
+    [name, age, email, mobile, category, gender, aadhar, pan, password, dob],
+    (err, result) => {
+      if (!err) {
+        return res
+          .status(200)
+          .json({ message: "User added successfully", result });
+      } else {
+        return res.status(500).json({ error: "Database Error", details: err });
+      }
+    }
+  );
+});
+
+// http://localhost:5000/getuser/1
+router.get("/getuser/:id", (req, res) => {
+  const id = req.params.id;
+
+  const query = `SELECT * FROM user WHERE id = ?;`;
+
+  connection.query(query, [id], (err, result) => {
+    if (!err) {
+      return res.status(200).json(result);
+    } else {
+      return res.status(500).json(err);
+    }
+  });
+});
+
+// http://localhost:5000/getusercategory/12
+router.get("/getusercategory/:category", (req, res) => {
+  const id = req.params.category;
+
+  const query = `SELECT * FROM user WHERE category = ?;`;
+
+  connection.query(query, [id], (err, result) => {
+    if (!err) {
+      return res.status(200).json(result);
+    } else {
+      return res.status(500).json(err);
+    }
+  });
+});
+
+router.get("/alluser", (req, res) => {
+  const query = `SELECT * FROM user`;
+
+  connection.query(query, [], (err, result) => {
+    if (!err) {
+      return res.status(200).json(result);
+    } else {
+      return res.status(500).json(err);
+    }
+  });
+});
+
+module.exports = router;

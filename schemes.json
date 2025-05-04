@@ -387,7 +387,11 @@
       "link": "https://www.collegedekho.com/private-scholarships-csp-2"
     }
   ],
+<<<<<<< HEAD
   "transgender_schemes" : [
+=======
+  "transgender_schemes": [
+>>>>>>> a384731 (Complete api GET/POST)
     {
       "name": "Free Higher Education for Transgender Students (Tamil Nadu)",
       "type": "Government",

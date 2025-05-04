@@ -37,7 +37,7 @@ router.post("/adduser", (req, res) => {
 
   const query = `
     INSERT INTO user (name, age, email, mobile, category, community, gender, aadhar, pan, password, dob) 
-    VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?);
+    VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?);
   `;
 
   connection.query(

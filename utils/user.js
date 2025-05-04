@@ -57,22 +57,32 @@ router.post("/adduser", (req, res) => {
 
 
 router.post("/login", (req, res) => {
-  const { email, passowrd } = req.body;
+  const { email, password } = req.body;
+
+  if (!email || !password) {
+    return res.status(400).json({ error: "Email and password are required" });
+  }
 
   const query = `
-      SELECT * FROM user WHERE email = ? AND password = ?;
-    `;
+    SELECT * FROM user WHERE email = ? AND password = ?;
+  `;
 
-  connection.query(query, [email, passowrd], (err, result) => {
-    if (!err) {
-      return res
-        .status(200)
-        .json({ message: "User login successfully", result });
-    } else {
+  connection.query(query, [email, password], (err, result) => {
+    if (err) {
       return res.status(500).json({ error: "Database Error", details: err });
+    }
+
+    if (result.length > 0) {
+      return res.status(200).json({
+        message: "User login successful",
+        user: result[0], // You can customize what fields to send
+      });
+    } else {
+      return res.status(401).json({ error: "Invalid email or password" });
     }
   });
 });
+
 
 // http://localhost:5000/getuser/1
 router.get("/getuser/:id", (req, res) => {

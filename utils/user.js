@@ -55,6 +55,25 @@ router.post("/adduser", (req, res) => {
   );
 });
 
+
+router.post("/login", (req, res) => {
+  const { email, passowrd } = req.body;
+
+  const query = `
+      SELECT * FROM user WHERE email = ? AND password = ?;
+    `;
+
+  connection.query(query, [email, passowrd], (err, result) => {
+    if (!err) {
+      return res
+        .status(200)
+        .json({ message: "User login successfully", result });
+    } else {
+      return res.status(500).json({ error: "Database Error", details: err });
+    }
+  });
+});
+
 // http://localhost:5000/getuser/1
 router.get("/getuser/:id", (req, res) => {
   const id = req.params.id;

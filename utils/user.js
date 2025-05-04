@@ -11,6 +11,7 @@ const router = express.Router();
     "email" : "gokul@gmail.com",
     "mobile":"1234567890",
     "category":"Student",
+    "community":"ANY",
     "gender":"Male",
     "aadhar":"12",
     "pan":"12",
@@ -26,6 +27,7 @@ router.post("/adduser", (req, res) => {
     email,
     mobile,
     category,
+    community,
     gender,
     aadhar,
     pan,
@@ -34,13 +36,13 @@ router.post("/adduser", (req, res) => {
   } = req.body;
 
   const query = `
-    INSERT INTO user (name, age, email, mobile, category, gender, aadhar, pan, password, dob) 
+    INSERT INTO user (name, age, email, mobile, category, community, gender, aadhar, pan, password, dob) 
     VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?);
   `;
 
   connection.query(
     query,
-    [name, age, email, mobile, category, gender, aadhar, pan, password, dob],
+    [name, age, email, mobile, category, community, gender, aadhar, pan, password, dob],
     (err, result) => {
       if (!err) {
         return res

@@ -100,10 +100,10 @@ router.get("/getuser/:id", (req, res) => {
 });
 
 // http://localhost:5000/getusercategory/12
-router.get("/getusercategory/:category", (req, res) => {
-  const id = req.params.category;
+router.get("/getusercategory/:community", (req, res) => {
+  const id = req.params.community;
 
-  const query = `SELECT * FROM user WHERE category = ?;`;
+  const query = `SELECT * FROM user WHERE community = ?;`;
 
   connection.query(query, [id], (err, result) => {
     if (!err) {
@@ -113,6 +113,7 @@ router.get("/getusercategory/:category", (req, res) => {
     }
   });
 });
+
 
 router.get("/alluser", (req, res) => {
   const query = `SELECT * FROM user`;
